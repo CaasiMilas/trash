@@ -1,0 +1,38 @@
+
+1. Para comenzar abrimos nuestro administrador de servidores.
+2. Agregamos un rol y características y le damos a siguiente.
+3. En tipo de instalación seleccionamos la basada en características o en roles.
+4. Seleccionamos nuestro servidor y le damos en siguiente.
+5. En las opciones marcamos las casillas de ‘Servicios de archivos’ y ‘Servidor Web’.
+6. En los servicios de archivos marcamos la casilla de ‘Administrador de recursos de servidor’.
+7. Agregamos las características del servidor.
+8. En Características seleccionamos .NET Framework y damos en siguiente.
+9. Confirmamos la instalación del servidor.
+10. Una vez realizada la instalación cerramos la pestaña.
+11. Buscamos la opción de herramientas en el panel de administrador y seleccionamos Administrador de recursos del servidor de archivos.
+12. Seleccionamos las Cuotas y creamos una cuota.
+13. Asignamos un nombre y le damos en crear.
+14. Creamos la carpeta TallerSO en la raíz del disco de nuestro servidor.
+15. Creamos la subcarpeta Práctica para comprobar después que el servidor es funcional.
+16. Abrimos la sección para crear un usuario.
+17. Creamos un usuario con sus datos y contraseña para que éste pueda consultar los archivos del servidor.
+18. Regresando al paso de 1 seleccionamos las propiedades de la carpeta y seleccionamos la opción de ‘Uso compartido avanzado’.
+19. Seleccionamos la casilla de ‘Compartir esta carpeta’.
+20. Modificamos los permisos y seleccionamos la casilla de ‘Leer’ en la columna ‘Permitir’ y por último seleccionamos la opción de ‘Agregar’.
+21. Una vez abierta la pestaña seleccionamos ‘Opciones avanzadas’.
+22. Buscamos el usuario que creamos anteriormente.
+23. Seleccionamos nuestro usuario y le damos en ‘Aceptar’.
+24. Automáticamente se agregara el nombre del usuario a la ruta.
+25. Le otorgamos los permisos deseados al usuario como se hizo anteriormente y damos ‘Aceptar’.
+26. Después regresamos a nuestro panel de servidores.
+27. Seleccionamos ‘Recursos compartidos’ y ahí se encuentran las rutas de las carpetas que creamos.
+28. Abrimos una terminal CMD.
+29. Ejecutamos un ipconfig para ver la ip de nuestra máquina.
+30. Regresamos a la pestaña de ‘Recursos compartidos’, revisamos las propiedades de la subcarpeta que creamos.
+31. Revisamos los permisos.
+32. En configuración deshabilitamos la casilla de ‘Permitir almacenamiento en caché’.
+33. Marcamos la casilla de ‘Habilitar enumeración basada en el acceso’.
+34. Ahora, en una máquina cliente, accedemos al ip de nuestra máquina virtual y nos solicitará las credenciales de nuestro usuario.
+35. Una vez ingresados los datos nos abrirá las carpetas de nuestro servidor.
+
+
